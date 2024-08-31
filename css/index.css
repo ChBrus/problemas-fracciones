@@ -1,0 +1,24 @@
+@import './default.css';
+
+body {
+    min-height: 100vh;
+    height: auto;
+}
+
+.site-header {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: .5em;
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    .bi {
+        font-size: 1.5em;
+    }
+}

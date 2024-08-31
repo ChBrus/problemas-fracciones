@@ -1,0 +1,75 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+    background-color: #1e1e2e; /* Fondo principal */
+    color: #cfd8dc; /* Texto principal */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Enlaces */
+a {
+    color: #82aaff; /* Color de enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botones */
+button {
+    background-color: #3f3f46; /* Fondo de botones */
+    color: #cfd8dc; /* Texto en botones */
+    border: 1px solid #4f4f5a; /* Bordes de botones */
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #616161; /* Fondo de botones al hacer hover */
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    color: #cfd8dc; /* Color del texto en encabezados */
+    margin-bottom: 20px;
+}
+
+/* Formularios */
+input, textarea {
+    background-color: #3f3f46; /* Fondo de campos de texto */
+    color: #cfd8dc; /* Texto en campos de texto */
+    border: 1px solid #4f4f5a; /* Bordes de campos de texto */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #82aaff; /* Color de borde al enfocar */
+}
+
+/* Errores y alertas */
+.error {
+    color: #ff5370; /* Color para mensajes de error */
+    font-weight: bold;
+}
+
+/* Separadores */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #4f4f5a; /* Color de los separadores */
+    margin: 20px 0;
+}
